@@ -1,0 +1,188 @@
+.cosial-facebook,
+.cosial-vkontakte,
+.cosial-classmates,
+.cosial-instagram {
+	display: block;
+	float:left;
+	margin: 0 5px;
+	background: url('../img/social.png') no-repeat 0 0;
+	width:24px;
+	height:24px;
+	overflow:hidden;
+	cursor:pointer;
+}
+.cosial-facebook {
+	background-position: -7px 0; 
+}
+li a:hover .cosial-facebook {
+	background-position: -7px -25px; 
+}
+.cosial-classmates {
+	background-position: -37px 0; 
+}
+li a:hover .cosial-classmates{
+	background-position: -37px -25px; 
+}
+.cosial-vkontakte {
+	background-position: -68px 0; 
+}
+li a:hover .cosial-vkontakte {
+	background-position: -68px -25px; 
+}
+.cosial-instagram {
+	background-position: -98px 0; 
+}
+li a:hover .cosial-instagram {
+	background-position: -98px -25px; 
+}
+.icon-smile,
+.icon-google,
+.icon-twitter,
+.icon-facebook,
+.icon-mirror,
+.icon-uah,
+.icon-scissors,
+.icon-handdrag,
+.icon-skype
+
+ {
+ 	display:inline-block;
+	background: url('../img/sprites.png') no-repeat top left;
+	width:16px;
+	height:16px;
+	overflow:hidden;
+	cursor:pointer;
+}
+
+.icon-smile{
+	background-position: 0 0; 
+}
+li a:hover .icon-smile {
+	background-position: 0 -31px; 
+}
+.icon-google  {
+	background-position: -32px 0; 
+}
+.icon-google:hover {
+	background-position: -32px -31px; 
+}
+.icon-twitter  {
+	background-position: -64px 0;
+}
+.icon-twitter:hover  {
+	background-position: -64px -31px; 
+}
+.icon-facebook  {
+	background-position: -96px 0; 
+}
+.icon-facebook:hover {
+	background-position: -96px -31px; 
+}
+.icon-mirror  {
+	background-position: -128px 0; 
+}
+li a:hover .icon-mirror {
+	background-position: -128px -31px; 
+}
+.icon-uah {
+	background-position: -161px 0;
+}
+li a:hover .icon-uah {
+	background-position: -161px -31px;
+}
+.icon-scissors {
+	background-position: -193px 0;
+}
+li a:hover .icon-scissors {
+	background-position: -193px -32px;
+}
+.icon-handdrag {
+	background-position: -224px 0;
+}
+li a:hover .icon-handdrag {
+	background-position: -224px -31px;
+}
+.icon-skype {
+	background-position: -256px 0;
+}
+.icon-skype:hover {
+	background-position: -256px -31px;
+}
+.icon-  {
+	background-position: -
+}
+li a:hover .icon-  {
+	background-position: -
+}
+.icon-  {
+	background-position: -
+}
+li a:hover .icon-  {
+	background-position: -
+}
+.icon-  {
+	background-position: -
+}
+li a:hover .icon-  {
+	background-position: -
+}
+.icon-  {
+	background-position: -
+}
+li a:hover .icon-  {
+	background-position: -
+}
+.icon-  {
+	background-position: -
+}
+li a:hover .icon-  {
+	background-position: -
+}
+.icon-  {
+	background-position: -
+}
+li a:hover .icon-  {
+	background-position: -
+}
+
+/* bootstrap glyphicon */
+.glyphicon-circle-arrow-right {
+	color:#F0B132;
+	padding-right: 5px;
+}
+.glyphicon-ok {
+	color:#F0B132;
+	padding-right: 5px;
+}
+@media (min-width:768px){
+	.glyphicon-chevron-left {
+		margin-left:-10px;
+		font-size:1.5em;
+	/*	color:#fff;
+		width:2em;
+		height:2em;
+		line-height:2em;
+		background-color:#000;
+		-webkit-border-radius:50px;
+		-moz-border-radius:50px;
+		-ms-border-radius:50px;
+		-o-border-radius:50px;
+		border-radius:50px;
+	*/
+	}
+	.glyphicon-chevron-right {
+		margin-left:-10px;
+		font-size:1.5em;
+	/*	color:#fff;
+		width:2em;
+		height:2em;
+		line-height:2em;
+		background-color:#000;
+		-webkit-border-radius:50px;
+		-moz-border-radius:50px;
+		-ms-border-radius:50px;
+		-o-border-radius:50px;
+		border-radius:50px;
+	*/
+	}
+}
