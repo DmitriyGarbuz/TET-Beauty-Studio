@@ -564,7 +564,7 @@ padding-bottom: 15px;
     margin-top: -70px;
     position: relative;
     z-index: 60;
-    height: 460px;
+    margin-bottom: 10px;
   }
   .carousel-caption {
 
@@ -578,6 +578,7 @@ padding-bottom: 15px;
   }
   .carousel-inner .item img{ 
     width: 100%;
+    
   }
   .carousel-caption h2 {
     margin-bottom: -10px;
