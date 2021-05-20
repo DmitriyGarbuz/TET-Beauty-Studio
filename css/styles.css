@@ -602,7 +602,7 @@ padding-bottom: 15px;
 @media screen and (min-width: 480px) {
 
   .carousel-caption h2 {
-    font-size: 1.3em;
+    font-size: 1.2em;
     position: absolute;
     bottom: 53px;
     z-index: 10;
