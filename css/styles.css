@@ -583,7 +583,7 @@ padding-bottom: 15px;
   .carousel-caption h2 {
     text-shadow: 0 5px 5px rgba(0, 0, 0, 0.8);
     margin-bottom: 10px;
-    font-size: 2.5rem;
+    font-size: 1.7rem;
   }
   .carousel-caption h4 {
     display: none;
@@ -602,7 +602,7 @@ padding-bottom: 15px;
 @media screen and (min-width: 480px) {
 
   .carousel-caption h2 {
-    font-size: 1.2em;
+    font-size: 1em;
     position: absolute;
     bottom: 53px;
     z-index: 10;
