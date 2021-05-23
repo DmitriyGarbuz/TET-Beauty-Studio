@@ -118,7 +118,7 @@ function datalayerPush(a, b, c, e) {
 
         if (rv['appointer__customer-name'] != undefined & rv['appointer__customer-phone'] != undefined) {
             var phone_str = rv['appointer__customer-phone'].replace(';', '');
-            console.log(phone_str);
+            // console.log(phone_str);
             var now = c + " " + a;
             var price_num = b.replace(' грн', '');
             price_num = Number(price_num);
