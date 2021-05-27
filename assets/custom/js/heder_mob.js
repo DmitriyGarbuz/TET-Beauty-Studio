@@ -129,17 +129,22 @@ function datalayerPush(a, b, c, e) {
 
 
             dataLayer.push({ 'event': 'pokupka' });
-            fbq('track', 'Purchase', { currency: "USD", content_ids: phone_str, value: price_dolar, content_name: client, content_category: a });
-            dataLayer.push({
-                'transactionId': phone_str,
-                'transactionTotal': price_num,
-                'transactionProducts': [{
-                    'sku': now,
-                    'name': a,
-                    'price': price_num,
-                    'quantity': 1
-                }]
+            // fbq('track', 'Purchase', { currency: "USD", content_ids: phone_str, value: price_dolar, content_name: client, content_category: a });
+            gtag('event', 'conversion', {
+                'send_to': phone_str,
+                'value': price_num,
+                'currency': 'UAH'
             });
+            // dataLayer.push({
+            //     'transactionId': phone_str,
+            //     'transactionTotal': price_num,
+            //     'transactionProducts': [{
+            //         'sku': now,
+            //         'name': a,
+            //         'price': price_num,
+            //         'quantity': 1
+            //     }]
+            // });
         }
     }
     toObject(parce);
